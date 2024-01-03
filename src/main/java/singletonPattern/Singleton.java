@@ -7,7 +7,7 @@ public class Singleton {
 	public String name;
 	public int age;
 	
-	public Singleton(String name, int age) {
+	private Singleton(String name, int age) {
 		this.name = name;
 		this.age = age;
 	}
